@@ -1,0 +1,36 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 6e0c0d6252bfe9c979f3b182c0019d7a944ede9b2b2e023ed11eff625c8ac563
+
+name:           AofC2018
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/AofC2018#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    README.md
+
+executable AofC2018
+  main-is: Main.hs
+  other-modules:
+      One
+      Two
+      Paths_AofC2018
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , mtl
+    , text
+    , transformers
+    , vector
+  default-language: Haskell2010
