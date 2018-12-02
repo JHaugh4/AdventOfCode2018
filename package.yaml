@@ -1,0 +1,25 @@
+name:                AofC2018
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/githubuser/AofC2018#readme
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2018 Author name here
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - containers
+  - mtl
+  - transformers
+  - text
+  - vector
+
+executables:
+  AofC2018:
+    source-dirs:      src
+    main:             Main.hs
