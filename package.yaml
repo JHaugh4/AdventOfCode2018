@@ -11,6 +11,11 @@ category:            Web
 extra-source-files:
 - README.md
 
+default-extensions:
+  - TemplateHaskell
+  - BangPatterns
+  - OverloadedStrings
+
 dependencies:
   - base >= 4.7 && < 5
   - containers
@@ -18,6 +23,10 @@ dependencies:
   - transformers
   - text
   - vector
+  - megaparsec
+  - void
+  - lens
+  - recursion-schemes
 
 executables:
   AofC2018:
